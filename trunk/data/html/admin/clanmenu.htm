@@ -1,0 +1,37 @@
+<title>L2Phoenix Manage Char</title>
+<center>
+<table width=260>
+<tr>
+<td><button value="Main" action="bypass -h admin_admin" width=50 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="Events" action="bypass -h admin_show_html events/events.htm" width=50 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="Chars" action="bypass -h admin_char_manage" width=50 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="Server" action="bypass -h admin_server admserver.htm" width=50 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="GM Shop" action="bypass -h admin_gmshop" width=50 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr></table>
+</center>
+<br>
+<center>
+<table>
+<tr><td><center><button value="Create Clan"  action="bypass -h admin_pledge create $pledgeName" width=70 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></center></td>
+<td><edit var="pledgeName" width=90></td></tr><br>
+<tr><td><center><button value="Level Clan"  action="bypass -h admin_pledge setlevel $level" width=70 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></center></td>
+<td><edit var="level" width=90></td></tr><br>
+<tr><td><button value="Add Rep" action="bypass -h admin_pledge addrep $rep" width=70 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><edit var="rep" width=90></td></tr><br>
+</table>
+<br>
+<table>
+<tr>
+<td><center><button value="Delete Clan"  action="bypass -h admin_pledge dismiss" width=75 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></center></td>
+</tr>
+<tr>
+<td><button value="Set Leader" action="bypass -h admin_pledge setleader" width=75 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+<tr>
+<td><button value="Reset Create" action="bypass -h admin_pledge resetcreate" width=75 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+<tr>
+<td><button value="Reset Wait" action="bypass -h admin_pledge resetwait" width=75 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+
+</table></center>
