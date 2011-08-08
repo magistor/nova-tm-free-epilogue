@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="copy" default="compile" basedir=".">
+	<target name="compile">
+
+		<copy todir="D:\Shaitan-team\temp">
+			<fileset dir="./">
+				<exclude name="*.iml"/>
+				<exclude name="**/*.svn"/>
+			</fileset>
+		</copy>
+
+	</target>
+</project>
