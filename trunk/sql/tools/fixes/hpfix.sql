@@ -1,1 +1,0 @@
-update npc set base_hp_regen = (1.4 + npc.level * .1);

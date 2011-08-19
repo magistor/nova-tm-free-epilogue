@@ -1,1 +1,0 @@
-#name;id;timer;spawnx;spawny;spawnz;heading;IdWaypoint1;Ticket1;xtelenoticket;ytelenoticket;ztelenoticket;annonceur1;message10_1;message5_1;message1_1;message0_1;message_begin_1;;IdWaypoint2;Ticket2;xtelenoticket;ytelenoticket;ztelenoticket;annonceur2;message5_2;message3_2;message1_2;message0_2;message_begin_2;
